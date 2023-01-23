@@ -18,7 +18,8 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
   key_name = "oregon_"
 
+  
   tags = {
-    Name = "Primeira_Instancia"
+    Name = "Terraform AWS - ansible"
   }
 }
